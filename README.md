@@ -165,6 +165,7 @@ python e10/solution.py
 ## What I Would Add with More Time
 
 - **OpenStreetMap data**: count banks, pharmacies, restaurants per hexagon — direct affluence signal
+- **Public transit infrastructure**: number of bus/metro stops and route density per hexagon — zones with high connectivity command higher prices; also explains *why* rush-hour spikes happen, not just *when*
 - **NASA nighttime lights**: satellite-measured light intensity correlates strongly with economic activity
 - **Neighbor features**: average cost of living of adjacent hexagons (spatial autocorrelation)
 - **Ensemble**: blend LightGBM with a simpler model on geographic features only, to stabilize predictions in zones with no mobility data
